@@ -1,0 +1,11 @@
+{
+  "name": "course-advancedts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yagasaki7K/course-advancedts.git",
+  "author": "Anderson Marlon <anderson18.marlon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
