@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do List</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Minha lista de tarefas</h1>
+    <ul>
+        {{range .}}
+            <li>{{.Title}} - {{if .Done}}✅{{else}}❌{{end}}</li>
+        {{end}}
+    </ul>
+</body>
+</html>
